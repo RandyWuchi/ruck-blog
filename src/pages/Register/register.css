@@ -1,0 +1,57 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGJsb2d8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register__title {
+  font-size: 50px;
+}
+
+.register__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register__form > label {
+  margin: 10px 0;
+}
+
+.register__form > input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.register__form > input:focus {
+  outline: none;
+}
+
+.register__register-btn {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.register__login-btn {
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
